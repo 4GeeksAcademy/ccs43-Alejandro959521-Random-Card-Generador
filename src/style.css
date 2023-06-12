@@ -1,1 +1,51 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  height: 100vh;
+}
+.general {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background: green;
+  align-items: center;
+  justify-content: center;
+}
+
+.cajaCard {
+  background: white;
+  height: 400px;
+  width: 300px;
+  border-radius: 20px;
+}
+
+.relleno {
+  margin: auto;
+}
+
+.encabezado,
+.relleno,
+.abajo {
+  height: 33.3%;
+}
+
+.relleno {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.encabezado {
+  padding: 10px;
+  padding-left: 30px;
+}
+p {
+  font-size: 70px;
+}
+.abajo {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding-right: 30px;
+}
+.simbolo2 {
+  transform: rotate(180deg);
+}
