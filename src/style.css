@@ -49,3 +49,21 @@ p {
 .simbolo2 {
   transform: rotate(180deg);
 }
+button {
+  color: white;
+  background-color: brown;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 20%;
+}
+.numeros {
+  font-family: "Konkhmer Sleokchher", cursive;
+}
+.boton {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.button:hover {
+  background: black;
+}
